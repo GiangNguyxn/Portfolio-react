@@ -1,0 +1,61 @@
+.container__header {
+  place-content: center space-between;
+  align-items: center;
+  border-radius: 1000px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: row nowrap;
+  height: 70px;
+  overflow: visible;
+  padding: 0px;
+  position: sticky;
+  top: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  will-change: transform;
+  z-index: 100;
+}
+
+.header__logo {
+  width: 30px;
+  cursor: pointer;
+}
+.header__menu nav .menu-list {
+  place-content: center;
+  align-items: center;
+  display: flex;
+  flex: 0 0 auto;
+  flex-flow: row nowrap;
+  gap: 18px;
+  height: min-content;
+  overflow: visible;
+  padding: 0px;
+  position: relative;
+  width: min-content;
+}
+.list-item {
+  align-items: center;
+  display: flex;
+  font-size: 14px;
+  gap: 10px;
+  justify-content: center;
+  padding: 10px 30px;
+  transition: all 1s;
+  cursor: pointer;
+}
+.list-item .menu-item {
+  display: inline;
+  color: #8ad2ff;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: left;
+  transition: all 1s;
+}
+.list-item:hover {
+  border-bottom: 1.5px solid;
+  border-color: rgb(249, 211, 26, 1);
+}
+.list-item:hover .menu-item {
+  color: rgb(249, 211, 26, 1);
+  transform: translateY(-9px);
+}

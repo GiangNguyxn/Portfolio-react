@@ -1,0 +1,20 @@
+.slider__container {
+  margin-top: 10rem;
+}
+.slider__container .slick-list .slick-track {
+  display: flex !important;
+  gap: 20px !important;
+}
+.slider__container .slick-list .slick-track .slick-slide div img,
+video {
+  width: 400px !important;
+  background-color: aliceblue;
+  height: 300px;
+  object-fit: cover;
+
+  border-radius: 20px !important;
+  margin-top: 15px !important;
+}
+.slider__container .slick-arrow {
+  display: none !important;
+}
